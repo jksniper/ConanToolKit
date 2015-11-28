@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91EFD0D41C09B396003BF603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EFD0D31C09B396003BF603 /* main.m */; };
+		91EFD0D71C09B396003BF603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EFD0D61C09B396003BF603 /* AppDelegate.m */; };
+		91EFD0DA1C09B396003BF603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EFD0D91C09B396003BF603 /* ViewController.m */; };
+		91EFD0DD1C09B396003BF603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EFD0DB1C09B396003BF603 /* Main.storyboard */; };
+		91EFD0DF1C09B396003BF603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EFD0DE1C09B396003BF603 /* Assets.xcassets */; };
+		91EFD0E21C09B396003BF603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EFD0E01C09B396003BF603 /* LaunchScreen.storyboard */; };
+		91EFD0ED1C09B396003BF603 /* ConanToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EFD0EC1C09B396003BF603 /* ConanToolKitTests.m */; };
+		91EFD0F81C09B396003BF603 /* ConanToolKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EFD0F71C09B396003BF603 /* ConanToolKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91EFD0E91C09B396003BF603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFD0C71C09B396003BF603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFD0CE1C09B396003BF603;
+			remoteInfo = ConanToolKit;
+		};
+		91EFD0F41C09B396003BF603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFD0C71C09B396003BF603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFD0CE1C09B396003BF603;
+			remoteInfo = ConanToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91EFD0CF1C09B396003BF603 /* ConanToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConanToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFD0D31C09B396003BF603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91EFD0D51C09B396003BF603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91EFD0D61C09B396003BF603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91EFD0D81C09B396003BF603 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91EFD0D91C09B396003BF603 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91EFD0DC1C09B396003BF603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91EFD0DE1C09B396003BF603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91EFD0E11C09B396003BF603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91EFD0E31C09B396003BF603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EFD0E81C09B396003BF603 /* ConanToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConanToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFD0EC1C09B396003BF603 /* ConanToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConanToolKitTests.m; sourceTree = "<group>"; };
+		91EFD0EE1C09B396003BF603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EFD0F31C09B396003BF603 /* ConanToolKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConanToolKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFD0F71C09B396003BF603 /* ConanToolKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConanToolKitUITests.m; sourceTree = "<group>"; };
+		91EFD0F91C09B396003BF603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EFD0CC1C09B396003BF603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFD0E51C09B396003BF603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFD0F01C09B396003BF603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91EFD0C61C09B396003BF603 = {
+			isa = PBXGroup;
+			children = (
+				91EFD0D11C09B396003BF603 /* ConanToolKit */,
+				91EFD0EB1C09B396003BF603 /* ConanToolKitTests */,
+				91EFD0F61C09B396003BF603 /* ConanToolKitUITests */,
+				91EFD0D01C09B396003BF603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91EFD0D01C09B396003BF603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91EFD0CF1C09B396003BF603 /* ConanToolKit.app */,
+				91EFD0E81C09B396003BF603 /* ConanToolKitTests.xctest */,
+				91EFD0F31C09B396003BF603 /* ConanToolKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91EFD0D11C09B396003BF603 /* ConanToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				91EFD0D51C09B396003BF603 /* AppDelegate.h */,
+				91EFD0D61C09B396003BF603 /* AppDelegate.m */,
+				91EFD0D81C09B396003BF603 /* ViewController.h */,
+				91EFD0D91C09B396003BF603 /* ViewController.m */,
+				91EFD0DB1C09B396003BF603 /* Main.storyboard */,
+				91EFD0DE1C09B396003BF603 /* Assets.xcassets */,
+				91EFD0E01C09B396003BF603 /* LaunchScreen.storyboard */,
+				91EFD0E31C09B396003BF603 /* Info.plist */,
+				91EFD0D21C09B396003BF603 /* Supporting Files */,
+			);
+			path = ConanToolKit;
+			sourceTree = "<group>";
+		};
+		91EFD0D21C09B396003BF603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91EFD0D31C09B396003BF603 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91EFD0EB1C09B396003BF603 /* ConanToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				91EFD0EC1C09B396003BF603 /* ConanToolKitTests.m */,
+				91EFD0EE1C09B396003BF603 /* Info.plist */,
+			);
+			path = ConanToolKitTests;
+			sourceTree = "<group>";
+		};
+		91EFD0F61C09B396003BF603 /* ConanToolKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91EFD0F71C09B396003BF603 /* ConanToolKitUITests.m */,
+				91EFD0F91C09B396003BF603 /* Info.plist */,
+			);
+			path = ConanToolKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EFD0CE1C09B396003BF603 /* ConanToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFD0FC1C09B396003BF603 /* Build configuration list for PBXNativeTarget "ConanToolKit" */;
+			buildPhases = (
+				91EFD0CB1C09B396003BF603 /* Sources */,
+				91EFD0CC1C09B396003BF603 /* Frameworks */,
+				91EFD0CD1C09B396003BF603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConanToolKit;
+			productName = ConanToolKit;
+			productReference = 91EFD0CF1C09B396003BF603 /* ConanToolKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91EFD0E71C09B396003BF603 /* ConanToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFD0FF1C09B396003BF603 /* Build configuration list for PBXNativeTarget "ConanToolKitTests" */;
+			buildPhases = (
+				91EFD0E41C09B396003BF603 /* Sources */,
+				91EFD0E51C09B396003BF603 /* Frameworks */,
+				91EFD0E61C09B396003BF603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFD0EA1C09B396003BF603 /* PBXTargetDependency */,
+			);
+			name = ConanToolKitTests;
+			productName = ConanToolKitTests;
+			productReference = 91EFD0E81C09B396003BF603 /* ConanToolKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91EFD0F21C09B396003BF603 /* ConanToolKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFD1021C09B396003BF603 /* Build configuration list for PBXNativeTarget "ConanToolKitUITests" */;
+			buildPhases = (
+				91EFD0EF1C09B396003BF603 /* Sources */,
+				91EFD0F01C09B396003BF603 /* Frameworks */,
+				91EFD0F11C09B396003BF603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFD0F51C09B396003BF603 /* PBXTargetDependency */,
+			);
+			name = ConanToolKitUITests;
+			productName = ConanToolKitUITests;
+			productReference = 91EFD0F31C09B396003BF603 /* ConanToolKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91EFD0C71C09B396003BF603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jksniper;
+				TargetAttributes = {
+					91EFD0CE1C09B396003BF603 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 65LGK85D3T;
+					};
+					91EFD0E71C09B396003BF603 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 65LGK85D3T;
+						TestTargetID = 91EFD0CE1C09B396003BF603;
+					};
+					91EFD0F21C09B396003BF603 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 65LGK85D3T;
+						TestTargetID = 91EFD0CE1C09B396003BF603;
+					};
+				};
+			};
+			buildConfigurationList = 91EFD0CA1C09B396003BF603 /* Build configuration list for PBXProject "ConanToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91EFD0C61C09B396003BF603;
+			productRefGroup = 91EFD0D01C09B396003BF603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EFD0CE1C09B396003BF603 /* ConanToolKit */,
+				91EFD0E71C09B396003BF603 /* ConanToolKitTests */,
+				91EFD0F21C09B396003BF603 /* ConanToolKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91EFD0CD1C09B396003BF603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFD0E21C09B396003BF603 /* LaunchScreen.storyboard in Resources */,
+				91EFD0DF1C09B396003BF603 /* Assets.xcassets in Resources */,
+				91EFD0DD1C09B396003BF603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFD0E61C09B396003BF603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFD0F11C09B396003BF603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91EFD0CB1C09B396003BF603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFD0DA1C09B396003BF603 /* ViewController.m in Sources */,
+				91EFD0D71C09B396003BF603 /* AppDelegate.m in Sources */,
+				91EFD0D41C09B396003BF603 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFD0E41C09B396003BF603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFD0ED1C09B396003BF603 /* ConanToolKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFD0EF1C09B396003BF603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFD0F81C09B396003BF603 /* ConanToolKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91EFD0EA1C09B396003BF603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFD0CE1C09B396003BF603 /* ConanToolKit */;
+			targetProxy = 91EFD0E91C09B396003BF603 /* PBXContainerItemProxy */;
+		};
+		91EFD0F51C09B396003BF603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFD0CE1C09B396003BF603 /* ConanToolKit */;
+			targetProxy = 91EFD0F41C09B396003BF603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91EFD0DB1C09B396003BF603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EFD0DC1C09B396003BF603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91EFD0E01C09B396003BF603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EFD0E11C09B396003BF603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91EFD0FA1C09B396003BF603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91EFD0FB1C09B396003BF603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91EFD0FD1C09B396003BF603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConanToolKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jknsiper.ConanToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91EFD0FE1C09B396003BF603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConanToolKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jknsiper.ConanToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91EFD1001C09B396003BF603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConanToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jknsiper.ConanToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConanToolKit.app/ConanToolKit";
+			};
+			name = Debug;
+		};
+		91EFD1011C09B396003BF603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConanToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jknsiper.ConanToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConanToolKit.app/ConanToolKit";
+			};
+			name = Release;
+		};
+		91EFD1031C09B396003BF603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConanToolKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jknsiper.ConanToolKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConanToolKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		91EFD1041C09B396003BF603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConanToolKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jknsiper.ConanToolKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConanToolKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91EFD0CA1C09B396003BF603 /* Build configuration list for PBXProject "ConanToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFD0FA1C09B396003BF603 /* Debug */,
+				91EFD0FB1C09B396003BF603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFD0FC1C09B396003BF603 /* Build configuration list for PBXNativeTarget "ConanToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFD0FD1C09B396003BF603 /* Debug */,
+				91EFD0FE1C09B396003BF603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91EFD0FF1C09B396003BF603 /* Build configuration list for PBXNativeTarget "ConanToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFD1001C09B396003BF603 /* Debug */,
+				91EFD1011C09B396003BF603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91EFD1021C09B396003BF603 /* Build configuration list for PBXNativeTarget "ConanToolKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFD1031C09B396003BF603 /* Debug */,
+				91EFD1041C09B396003BF603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91EFD0C71C09B396003BF603 /* Project object */;
+}
